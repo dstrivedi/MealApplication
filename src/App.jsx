@@ -5,15 +5,17 @@ import Modal from './components/Modal';
 import Meals from './components/Meals';
 import Search from './components/Search';
 
-import { AppProvider } from './context'
+
+import { useGlobalContext } from './context'
 
 export default function App() {
+  const { showModal } = useGlobalContext()
   return (
-    <AppProvider>
-{   <Search />
+    <main>
+      {<Search />
      /* <Favorites /> */}
       <Meals />
-{/*       <Modal /> */}
-    </AppProvider>
+      {showModal && <Modal />}
+    </main>
   )
 }
