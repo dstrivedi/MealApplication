@@ -326,3 +326,46 @@ ul {
   color: var(--white);
   background: var(--red-dark);
 }
+
+/*Favorites*/
+.favorites {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.favorites-content {
+  width: var(--view-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.favorite-item {
+  text-align: center;
+}
+
+.favorite-img {
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 5px solid var(--white)
+}
+
+.remove-btn {
+  background: transparent;
+  border: transparent;
+  color: var(--white);
+  font-size: 0.6rem;
+  transition:var(--transition);
+  margin-top:0.25rem;
+}
+
+.remove-btn:hover {
+  color: var(--red-light)
+}

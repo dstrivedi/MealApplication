@@ -9,11 +9,11 @@ import Search from './components/Search';
 import { useGlobalContext } from './context'
 
 export default function App() {
-  const { showModal } = useGlobalContext()
+  const { favoriteMeals, showModal } = useGlobalContext()
   return (
     <main>
-      {<Search />
-     /* <Favorites /> */}
+      <Search />
+      {favoriteMeals.length >0 && <Favorites />}
       <Meals />
       {showModal && <Modal />}
     </main>
