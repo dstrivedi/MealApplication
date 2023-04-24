@@ -10,8 +10,8 @@ import { AppProvider } from './context'
 export default function App() {
   return (
     <AppProvider>
-{/*       <Search />
-      <Favorites /> */}
+{   <Search />
+     /* <Favorites /> */}
       <Meals />
 {/*       <Modal /> */}
     </AppProvider>

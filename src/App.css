@@ -165,7 +165,48 @@ ul {
 /* End Of Global Styles */
 /* End Of Global Styles */
 
+/*Search*/
+.search-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+}
+
+.search-container form {
+  display: flex;
+  gap: 0.5rem;
+  width: var(--view-width);
+  max-width: var(--max-width);
+  flex-wrap: wrap;
+}
+
+.search-container .form-input {
+  max-width: 200px;
+  padding: 0.375rem 0.75rem;
+  background: var(--backgroundColor);
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--grey-200);
+}
+
+::placeholder {
+  font-family: inherit;
+  color: var(--grey-400)
+}
+
+.search-container .btn {
+  font-size: 0.75rem;
+}
+
 /* Meals */
+.section {
+  padding: 3rem 0;
+  width: var(--view-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
 .section-center {
   padding: 3rem 0;
   width: var(--view-width);
