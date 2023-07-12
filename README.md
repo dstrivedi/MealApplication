@@ -2,7 +2,7 @@
     <img title="Outlier" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="250" />
     <img title="TypeScript" alt="JavaScript" height=230
       src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
-   </div>
+  </div>
   <h1>
     Meal application
   </h1>
